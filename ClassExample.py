@@ -1,5 +1,5 @@
 class Car:
-	def __init__(self,x):	
+	def __init__(self,x):	#constructor	
 		self.x=x
 	
 	def turn_left(self, x=20):
