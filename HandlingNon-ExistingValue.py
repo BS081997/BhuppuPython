@@ -17,3 +17,13 @@ x1=x[~sp.isnan(x)]
 y1=y[~sp.isnan(y)]
 print(x1)
 print(y1)
+
+
+plt.scatter(x,y)
+plt.title("Graph")
+plt.xlabel("Numbers")
+plt.ylabel("S.No.")
+plt.xticks()
+plt.autoscale(tight=True)
+plt.grid()
+plt.show()
